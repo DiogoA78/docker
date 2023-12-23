@@ -1,4 +1,4 @@
-# Projet Docker - WordPress et MariaDB
+# Projet Docker 1 - Stack Applicative WordPress et MariaDB
 Ce README documente les étapes et configurations réalisées pour la mise en place d'un environnement Docker comprenant WordPress et MariaDB, telles que discutées et élaborées tout au long de notre conversation.
 
 # Aperçu du Projet
