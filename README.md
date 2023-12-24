@@ -64,7 +64,7 @@ de Kibana.
 - Assurez-vous que les noeuds Elasticsearch utilisent les fichiers de configuration
 appropriés.
 - Configurez les variables d'environnement nécessaires.
-- 
+  
 ## Exécution
 Pour démarrer le cluster :
 1. Ouvrez un terminal.
