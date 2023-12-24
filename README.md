@@ -23,6 +23,7 @@ Deux réseaux Docker distincts ont été créés pour séparer les préoccupatio
 frontend_network est utilisé exclusivement par le conteneur WordPress.
 backend_network est partagé par les conteneurs WordPress et MariaDB, permettant une communication sécurisée entre le frontend et le backend.
 
+
 # Projet Docker 2 - Cluster Elasticsearch avec Kibana
 
 ## Structure du Projet
@@ -42,11 +43,11 @@ ES_VERSION=8.11.3
 
 ## Configuration du Cluster Elasticsearch
 
-Elasticsearch.yml
+### Elasticsearch.yml
 Dans le répertoire `es-cluster/`, créez un fichier `elasticsearch.yml` qui contiendra la
 configuration spécifique pour les noeuds Elasticsearch.
 
-Kibana.yml
+### Kibana.yml
 Toujours dans le répertoire `es-cluster/`, créez un fichier `kibana.yml` pour la configuration
 de Kibana.
 
