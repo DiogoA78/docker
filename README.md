@@ -33,7 +33,7 @@ docker-compose up
 # Projet Docker 2 - Cluster Elasticsearch avec Kibana
 
 ## Structure du Projet
-Diogo_Aroune/
+Projet2 /
 │
 ├── docker-compose.yml
 ├── .env
@@ -42,7 +42,7 @@ Diogo_Aroune/
 └── kibana.yml
 Fichier .env
 
-À la racine du projet (`Diogo_Aroune/`), créez un fichier `.env` pour définir les variables
+À la racine du projet (`Projet2/`), créez un fichier `.env` pour définir les variables
 d'environnement utilisées dans le `docker-compose.yml`.
 Contenu du fichier `.env` :
 ES_VERSION=8.11.3
