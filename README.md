@@ -23,7 +23,6 @@ Deux réseaux Docker distincts ont été créés pour séparer les préoccupatio
 frontend_network est utilisé exclusivement par le conteneur WordPress.
 backend_network est partagé par les conteneurs WordPress et MariaDB, permettant une communication sécurisée entre le frontend et le backend.
 
-
 # Projet Docker 2 - Cluster Elasticsearch avec Kibana
 
 ## Structure du Projet
