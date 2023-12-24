@@ -23,6 +23,12 @@ Deux réseaux Docker distincts ont été créés pour séparer les préoccupatio
 frontend_network est utilisé exclusivement par le conteneur WordPress.
 backend_network est partagé par les conteneurs WordPress et MariaDB, permettant une communication sécurisée entre le frontend et le backend.
 
+## Exécution
+Pour démarrer le cluster :
+1. Ouvrez un terminal.
+2. Naviguez jusqu'au répertoire `Projet1/`.
+3. Exécutez la commande :
+docker-compose up
 
 # Projet Docker 2 - Cluster Elasticsearch avec Kibana
 
@@ -62,7 +68,7 @@ appropriés.
 ## Exécution
 Pour démarrer le cluster :
 1. Ouvrez un terminal.
-2. Naviguez jusqu'au répertoire `Diogo_Aroune/`.
+2. Naviguez jusqu'au répertoire `Projet2/`.
 3. Exécutez la commande :
 docker-compose up
 4. Vérifiez que le cluster Elasticsearch et le service Kibana sont opérationnels.
